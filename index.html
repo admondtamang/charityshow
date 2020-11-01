@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="jquery"></script>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+	<header>
+		<a href="index.html" tabindex="1"><h1>ACS</h1></a>
+		
+		<div class="search">
+			<input type="search" class="materialTextbox" name="search" tabindex="2"><img src="icons/search.svg" alt="search">
+
+		</div>
+
+		<nav>
+			<ul>
+				<li>
+					<img src="icons/hamburger_menu.png" alt="hamburger_menu">
+				
+					<ul>
+						<li><a class="active" href="index.html" tabindex="3" accesskey="h">Home</a></li>
+						<li><a href="events.html" tabindex="4" accesskey="c">Charity events</a></li>
+						<li><a href="fund.html" tabindex="5" accesskey="f">Fund raising</a></li>
+						<li><a class="toggle" href="community.html" tabindex="6" accesskey="o">Community</a>
+							<ul>
+								<li><a href="community.html#social" tabindex="7" accesskey="s">Social</a></li>
+								<li><a href="community.html#comment" tabindex="8" accesskey="n">Comment</a></li>
+	                            <li><a href="community.html#login" tabindex="9" accesskey="l">Login</a></li>
+							</ul>
+						</li>
+						<li><a href="news.html" tabindex="10" accesskey="r">News and reviews</a></li>
+						<li><a href="tools.html" tabindex="11" accesskey="t">Tools and calculators</a></li>
+						<li><a href="joinus.html" tabindex="12" accesskey="j">join us</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+<!--	End of Header   -->
+
+	<div class="wrapper">
+
+		<div class="container">
+			
+			<article>
+				<h4>About Annual Charaty Show (ASC)</h4>
+				<p>ASC is a Nepal registered charity dedicated to creating a better future for animals in need. Our first project, established in 2009, is based in Sabah, Borneo, where we have a facility and team providing a lifeline to thousands of dogs and cats every year in need of veterinary care and support. Our companion animal programmes have since developed in other Countries, including Romania, Penang, Philippines and the UK.</p>
+			</article>
+			<img src="images/animalRight.png" alt="animalRight">
+		</div>
+	</div>
+    
+    
+<!--    End of wrapper -->
+    <label class="heading"> Featured News and Article</label>
+
+    <div class="news">
+            <aside>
+              	<section>
+                    <h2>What is FIV?</h2>
+                    <p>You may have heard the term FIV being used when talking about a cat, but what does this actually mean?</p>  
+                    <p class="time">2018 Feb 28</p> 
+                </section>
+                <section>
+                    <h2>Peter Rabbit the Movie</h2>
+                    <p>We were lucky enough to be invited to Cineworld St Neots at the weekend to talk to cinema goers about rabbits.</p>   
+                    <p class="time">2018 Jan 18</p> 
+                </section>
+                <section>
+                    <h2>Winter Raffle Results</h2>
+                    <p>Every ticket brought and sold helps us rebuild little lives!</p>   
+                    <p class="time">2018 Mar 14</p> 
+                </section>            
+            </aside>
+
+            <div class="newRight">
+            	<div class="section">
+	                <img src="images/walk.jpg" alt="walk">
+	                <article>
+	                    <h2>ACE Charity Quiz</h2>
+	                    <p>Want to support effective animal charities, but not sure which one to choose? Take our new recommended charity quiz to identify the charities that align with your values! ...</p>
+	                </article>
+            	</div>
+         
+	            <div class="section">
+	                <img src="images/dog.jpg" alt="dog">
+	                <article>
+	                <h2>To Reduce Wild Animal Suffering We Need to Find Out If the Cause Area Is Tractable</h2>
+	                <p>Persis Eskander, Executive Director of Wild-Animal Suffering Research, discusses the case for reducing wild animal suffering.</p>
+	                </article>
+	            </div>
+            </div>
+    </div>
+    
+    <!-- End of News -->
+    
+    
+    
+    <div class="donate shadowBox">
+        <label>Help the Greatest Number of Animals</label>
+        <p>Increase the impact of your donation by supporting our recommended charities.</p>
+        <div class="dollar">
+            <input type="text" name="donate" placeholder="$">
+            <input type="submit" name="submit" value="Donate">
+        </div>
+    </div>
+        
+    
+	<div class="money">
+		<h1 class="heading">What your money does</h1>	
+	</div>
+	<div class="content">
+				<div class="items shadowBox	">
+					<img src="images/stray.png" class="shadowBox" alt="stray">
+					<h3>$4</h3>
+					<p>Vaccinates a stray to protect them against disease</p>
+				</div>
+
+				<div class="items shadowBox	">
+					<img src="images/stray-food.png" class="shadowBox" alt="stray food">
+					<h3>$59</h3>
+					<p>Provides food for one of our patients receiving veterinary care.</p>
+				</div>
+
+				<div class="items shadowBox	">
+					<img src="images/straypuppy.png" class="shadowBox" alt="straypuppy">
+					<h3>$14</h3>
+					<p>Funds a stray to be neutered to prevent puppies from being born on the streets.</p>
+				</div>
+	</div>
+<!--  End of content	-->
+	
+	<div class="login shadowBox">
+		<div class="container">
+			<h1>Login</h1>
+			<p><input type="text" name="user" placeholder="User Name" tabindex="13"></p>
+			<p><input type="password" name="password" placeholder="Password" tabindex="14"></p>
+			<input type="submit" name="login" value="Login" tabindex="15">
+			<a href="signUp.html"></a><a><p class="dont">Don't have one</p></a>
+		</div>
+	</div>
+	<footer>
+		<div class="social" id="social">
+			<img src="images/fb.png" alt="facebook" tabindex="16">
+			<img src="images/twitter.png" alt="twitter" tabindex="17">
+			<img src="images/in.png" alt="linkedin" tabindex="18">
+			<img src="images/googleplus.png" alt="googleplus" tabindex="18">
+		</div>	
+		 <p>&copy; Copyright protection 2018.</p>
+	</footer>
+</body>
+</html>

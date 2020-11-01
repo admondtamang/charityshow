@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Join Us</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<a href="index.html" tabindex="1"><h1>ACS</h1></a>
+		
+		<div class="search">
+			<input type="search" class="materialTextbox" name="search" tabindex="2"><img src="icons/search.svg" alt="search">
+
+		</div>
+
+		<nav>
+			<ul>
+				<li>
+					<img src="icons/hamburger_menu.png" alt="hamburger_menu">
+				
+					<ul>
+						<li><a href="index.html" tabindex="3" accesskey="h">Home</a></li>
+						<li><a href="events.html" tabindex="4" accesskey="c">Charity events</a></li>
+						<li><a href="fund.html" tabindex="5" accesskey="f">Fund raising</a></li>
+						<li><a href="community.html" tabindex="6" accesskey="o">Community</a>
+							<ul>
+								<li><a href="community.html#social" tabindex="7" accesskey="s">Social</a></li>
+								<li><a href="community.html#news" tabindex="8" accesskey="n">News</a></li>
+	                            <li><a href="community.html#login" tabindex="9" accesskey="l">Login</a></li>
+							</ul>
+						</li>
+						<li><a href="news.html" tabindex="10" accesskey="r">News and reviews</a></li>
+						<li><a href="tools.html" tabindex="11" accesskey="t">Tools and calculators</a></li>
+						<li><a class="active" href="joinus.html" tabindex="12" accesskey="j">join us</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+<!--	End of Header   -->
+
+	<div class="banner">
+		<img src="images/volunteer.png" alt="volunteer">
+	</div>
+
+    
+   <div class="joinus shadowBox" id="joinus">
+     <label>Sign Up</label>
+     <form action="joinus.html" method="post" >
+        <input class="materialTextbox" type="text" placeholder="First Name">
+        <input class="materialTextbox" type="text" placeholder="Last Name">
+        <input class="materialTextbox" type="text" placeholder="Password">
+        <input class="materialTextbox" type="email" placeholder="Email">
+        <input class="materialTextbox" type="text" placeholder="Phone">
+        <p>
+            <label>Gender:&nbsp;</label>
+            <input type="radio" value="male" name="gender"><label>Male</label>
+            <input type="radio" value="female" name="gender"><label>Female</label>
+            <input type="radio" value="others" name="gender"><label>Others</label>
+        </p>
+        <p><input type="checkbox" name="checkbox" value="yes"><label>Are you going to volunteer for us ?</label></p>
+        <p><label>Places</label>
+        <select>
+        	<option>Kathmandu</option>
+        	<option>Pokhare</option>
+        	<option>Nuwakot</option>
+        	<option>Dehli</option>
+        </select></p>
+        <input type="submit" value="register" class="button shadowBox">
+        
+        <label>Or<br>Sign in with</label>
+          
+        <div class="social signupSoc">
+			<img src="images/fb.png" alt="facebook" tabindex="16">
+			<img src="images/twitter.png" alt="twitter" tabindex="17">
+			<img src="images/in.png" alt="linkedin" tabindex="18">
+			<img src="images/googleplus.png" alt="googleplus" tabindex="18">
+        </div>
+        
+      </form>
+    </div>
+    <!-- End of Join us form -->
+
+	<div class="login shadowBox">
+		<div class="container">
+			<h1>Sign In</h1>
+			<p><input type="text" name="user" placeholder="User Name" tabindex="13"></p>
+			<p><input type="password" name="password" placeholder="Password" tabindex="14"></p>
+			<input type="submit" name="login" value="Login" tabindex="15">
+			<a href="signUp.html"></a><a href="#joinus"><p class="dont">Don't have one</p></a>
+		</div>
+	</div>
+	<footer>
+		<div class="social">
+			<img src="images/fb.png" alt="facebook" tabindex="16">
+			<img src="images/twitter.png" alt="twitter" tabindex="17">
+			<img src="images/in.png" alt="linkedin" tabindex="18">
+			<img src="images/googleplus.png" alt="googleplus" tabindex="18">
+		</div>	
+		 <p>&copy; Copyright protection 2018.</p>
+	</footer>
+</body>
+</html>
